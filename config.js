@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://lynnettecanada.com',
+  title: 'Blog by Lynnette Canada',
+  subtitle: 'Fullstack Javascript Developer ready to learn!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -14,25 +14,31 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About Me',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Projects',
+      path: '/pages/projects'
+    },
+    {
+      label: 'Resume',
+      path: '/pages/resume'
+    },
+    {
+      label: 'Contact Me',
       path: '/pages/contacts'
-    }
+    },
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Lynnette Canada',
+    photo: '/nabanosmlxt.png',
+    bio: 'Hi! I\'m a Fullstack Software Engineer, Blogger and life long learner!',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'lcanada@lynnettecanada.com',
+      twitter: '/LynnTheDev',
+      github: '/Lcanada',
+
     }
   }
 };
